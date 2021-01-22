@@ -7,8 +7,8 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  color: #222;
-  background: black;
+  color: rgb(28, 28, 30);
+  background: rgb(255, 255, 255);
   font: 1em/1.5 'Roboto', sans-serif;
 }
 h1, h2, h3 {
@@ -21,7 +21,7 @@ p {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: rgb(28, 28, 30);
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -51,7 +51,7 @@ p {
   transition: all .5s;
 }
 .nav a:hover {
-  color: rgb(0, 255, 200)
+  color: rgb(52, 199, 89);
 }
 
 header {
@@ -77,14 +77,14 @@ header .profile-image:hover {
 }
 .tag {
   background-color: #efefef;
-  color: black;
+  color: rgb(28, 28, 30);
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 }
 .location {
-  background-color: #222;
+  background-color: rgb(28, 28, 30);
   color: white;
 }
 .card {
@@ -109,14 +109,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: rgb(255, 159, 10);
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: rgb(10, 132, 255);
 }
 
 footer {
@@ -219,21 +219,21 @@ p,li {
   text-align: center;
 }
 .about {
-  color: #00A4EF;
+  color: rgb(100, 210, 255);
 }
 .goals {
-  color: #FFB900;
+  color: rgb(255, 159, 10);
 }
 .education {
-  color: #F25022;
+  color: rgb(255, 69, 58);
 }
 
 .experience {
-  color: #7FBA00;
+  color: rgb(48, 209, 88);
 }
 
 .awards {
-  color: #7719AA;
+  color: rgb(191, 90, 242);
 }
 
 .email{
@@ -250,30 +250,30 @@ p,li {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #7D7D7D;
+  background: #000000;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 
 .about-card:hover {
-  border-color: #00A4EF;
+  border-color: rgb(100, 210, 255);
 }
 
 .goals-card:hover {
-  border-color: #FFB900;
+  border-color: rgb(255, 159, 10);
 }
 
 .education-card:hover {
-  border-color: #F25022;
+  border-color: rgb(255, 69, 58);
 }
 
 .experience-card:hover {
-  border-color: #7FBA00;
+  border-color: rgb(48, 209, 88);
 }
 
 .awards-card:hover {
-  border-color: #7719AA;
+  border-color: rgb(191, 90, 242);
 }
 
 /* Style for images */
@@ -298,19 +298,19 @@ p,li {
 
 /* links */
 a:link {
-  color: orange;
+  color: rgb(255, 159, 10);
 }
 
 a:visited {
-  color: lightblue;
+  color: rgb(100, 210, 255);
 }
 
 a:hover {
-  color: #6633ff;
+  color: rgb(191, 90, 242);
 }
 
 a:active {
-  color: lightcoral;
+  color: rgb(255, 159, 10);
 }
 
 :focus {
